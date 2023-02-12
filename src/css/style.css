@@ -68,3 +68,59 @@
     box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
 }
+
+.main{
+    background-image: url("../img/uber_bg.png");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    height: 800px;
+
+}
+
+.main__page_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__header{
+    text-align: center;
+    font-weight: 900;
+    font-size: 60px;
+    margin:  50px 140px 0 140px;
+    color: #FFFFFF;
+}
+
+.main__after_header{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 900;
+    font-size: 36px;
+    margin:  0 140px 0 140px;
+    color: #FFFFFF;
+}
+
+.vacancy_description_first{
+    margin: 35px 78px 0 78px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+
+}
+
+.vacancy_description_second{
+    margin-top: 40px;
+
+}
+
+.main__getJob_button{
+    margin-top: 120px;
+    color: #FFFFFF;
+    border: none;
+    width: 260px;
+    height: 60px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
