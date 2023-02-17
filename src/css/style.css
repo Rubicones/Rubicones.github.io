@@ -19,6 +19,14 @@
     color: #FFFFFF
 }
 
+
+.subheader{
+    position: absolute;
+    top: 53px;
+    left: 0px;
+    width: 100%;
+}
+
 .subheader .row{
     height: 87px;
     background-color: #000000a2;
@@ -73,35 +81,33 @@
     background-image: url("../img/uber_bg.png");
     background-repeat: no-repeat;
     background-size:100% 100%;
-    height: 800px;
-
 }
 
 .main__page_container{
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 800px;
 }
 
 .main__header{
     text-align: center;
     font-weight: 900;
     font-size: 60px;
-    margin:  50px 140px 0 140px;
+    margin-top:  140px;
+    margin-bottom: 0;
     color: #FFFFFF;
 }
 
 .main__after_header{
     text-align: center;
-    margin-top: 50px;
     font-weight: 900;
     font-size: 36px;
-    margin:  0 140px 0 140px;
     color: #FFFFFF;
 }
 
 .vacancy_description_first{
-    margin: 35px 78px 0 78px;
+    margin-top: 35px;
     text-align: center;
     font-weight: 400;
     font-size: 18px;
@@ -111,11 +117,15 @@
 
 .vacancy_description_second{
     margin-top: 40px;
-
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
 }
 
 .main__getJob_button{
     margin-top: 120px;
+    margin-left: 440px;
     color: #FFFFFF;
     border: none;
     width: 260px;
@@ -124,3 +134,102 @@
     box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
 }
+
+.col-md-10.offset-md-1.main_page__col{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.reasons-page{
+    width: 100%;
+    height: 850px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.reasons-page__block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 113px;
+    height: 24px;
+    background-color: #000000;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 11px;
+    color: white;
+}
+
+.reasons-page__header{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    color: #222222;
+    margin-top: 42px;
+}
+
+.reasons_page__list{
+    width: 1080px;
+    height: 660px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    list-style:none;
+    align-content: space-around;
+    gap: 25px;
+    column-gap: 70px;
+}
+
+.reasons-page__list_item{
+    height: 140px;
+    width: 510px;
+    display: flex;
+    align-items: center;
+}
+
+.reasons-page__list_item_icon{
+    width: 116px;
+    height: 116px;
+    background-color: #1EACC7;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reasons-page__list_item_text_container{
+    width: 370px;
+    height: 100%;
+    margin-left: 25px;
+
+}
+
+.reasons-page__list_item_header{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: #1EACC7;
+}
+
+.reasons-page__list_item_subheader{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    /* or 140% */
+
+    display: flex;
+    align-items: center;
+
+    color: #202020;
+}
+
